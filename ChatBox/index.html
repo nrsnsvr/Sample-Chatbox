@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>ChatBox</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="close__button" role="button" tabindex="0">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="./images/porfile.png" alt="profile">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <div class="chatbox__info--header">Артур Васильчук</div>
+                        <div class="chatbox__description--header">Обычно ответы в течение нескольких минут</div>
+                    </div>
+                </div>
+                <div class="chatbox__component">
+                    <div class="chatbox__time">
+                        10:56
+                    </div>
+                    <div class="messages">
+                        <div class="messages__component--profile">
+                            <div class="messages__container--profile">
+                                <div class="messages__profile">
+                                    <img src="./images/profile-icon.png" alt="porfile">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="messages__item--visitor" style="opacity: 1;">Привет 👋<div><br></div><div>чем могу помочь?</div></div>
+                    </div>
+                </div>
+                <div class="chatbox__footer">
+                    <div class="chatbox__text--footer">Начать чат с:</div>
+                    <div class="chatbox__buttons--footer">
+                        <a class="whatsapp__button" role="button" href="">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a class="telegram__button" role="button" href="">
+                            <i class="fas fa-location-arrow"></i>
+                        </a>
+                        <a class="phone__button" role="button" href="">
+                            <i class="fas fa-phone-volume"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div role="button" tabindex="0" class="chatbox__button">
+                <div class="chatbox__dot">
+                </div>
+                <div class="chatbox__icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./chat.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
